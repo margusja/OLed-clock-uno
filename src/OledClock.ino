@@ -20,6 +20,11 @@
 #define OLED_CS    8
 #define OLED_RESET 10
 
+//
+//RTC CSL -> Arduino UNO 5
+//RTC SDA -> Ardoinu UNI 4
+
+
 // Date and time functions using a DS3231 RTC connected via I2C and Wire lib
 #include <Wire.h>
 #include "RTClib.h"
